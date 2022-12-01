@@ -1,0 +1,188 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+    color: #6f6f6f
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding: 0;
+    background: #fff;
+}
+
+.navbar-main {
+    display: flex;
+    align-items:center;
+    padding: 5px;
+    height: 45px;
+    flex-shrink: 0;
+    box-sizing:border-box;
+}
+
+.logo {
+    margin-right: 25px;
+}
+
+.features {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.company {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.careers {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 8px;
+}
+
+.about {
+        display: inline-block;
+        padding: 5px;
+        margin: 0;
+        margin-right: 5px;
+        margin-left: 8px;
+}
+
+ .navbar-center {
+        display: inline-block;
+        flex-grow: 1;
+}
+
+ .login {
+        display: inline-block;
+        padding: 5px;
+        margin: 0 5px;
+}
+
+#register-button {
+            color: #fff;
+            background: black;
+            border: 1px solid transparent;
+            font-weight: 500;
+            font-size: 14px;
+            letter-spacing: .25px;
+            line-height: 16px;
+            min-width: 96px;
+            padding: 9px 23px;
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 12px;
+            box-sizing: border-box;
+            outline: none;
+            margin: 0 8px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 900px;
+}
+
+.left-main {
+    width: 50%;
+    height: 100%;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    color: black;
+    width: 80%;
+    height: 40%;
+    margin: 70px 10% 0 10%;
+    font-size: 90px;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    width: 80%;
+    height: 10%;
+    margin: 0 10%;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    width: 80%;
+    height: 10%;
+    margin: 0 10%;
+}
+
+#learn-more-button {
+    background-color: black;
+    border: 1px solid #f8f9fa;
+    border-radius: 12px;
+    color: #f8f9fa;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+
+}
+
+.img-row {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    height: 5%;
+    width: 80%;
+    padding-top: 100px;
+    margin: 0 10%;
+    }
+
+.databiz {
+    width: 25%;
+}
+
+.audiophile {
+    width: 25%;
+}
+
+.meet {
+    width: 25%;
+}
+
+.maker {
+    width: 25%;
+}
+
+
+.right-main {
+    width: 50%;
+    height: 80%;
+    margin: 75px 0;
+}
+
+#hero-img {
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+footer {
+}
+
+
+ 
